@@ -10,7 +10,7 @@ docker-compose up -d
 ``
 либо используя интерфейс
 
-2. Перейдите на контроллер
+2. Запустите приложение в Idee и Перейдите в контроллер
 
 http://localhost:8086/books
 
@@ -29,8 +29,8 @@ http://localhost:8086/swagger-ui/index.html#/
  Технологии
 
 - Java 17
-- Spring Boot
+- Spring Boot/Spring Security(Jwt)
 - Junit/Mockito
-- PostgreSQL
+- PostgreSQL/Flyway
 - Docker & Docker Compose
 - Swagger / OpenAPI
